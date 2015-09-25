@@ -1,0 +1,6 @@
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Debug\SyncToyExec.exe
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Debug\SyncToyExec.pdb
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Debug\SyncToyEngine.dll
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Debug\SyncToyExec.csprojResolveAssemblyReference.cache
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Debug\SyncToyExec.exe
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Debug\SyncToyExec.pdb

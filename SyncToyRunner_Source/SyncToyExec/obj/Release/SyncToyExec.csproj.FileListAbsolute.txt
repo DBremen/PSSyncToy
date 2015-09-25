@@ -1,0 +1,17 @@
+C:\Users\dirk_bremen\Desktop\SyncToyExec_src\Source\SyncToyExec\bin\Release\SyncToyExec.exe
+C:\Users\dirk_bremen\Desktop\SyncToyExec_src\Source\SyncToyExec\bin\Release\SyncToyExec.pdb
+C:\Users\dirk_bremen\Desktop\SyncToyExec_src\Source\SyncToyExec\bin\Release\SyncToyEngine.dll
+C:\Users\dirk_bremen\Desktop\SyncToyExec_src\Source\SyncToyExec\obj\Release\SyncToyExec.csprojResolveAssemblyReference.cache
+C:\Users\dirk_bremen\Desktop\SyncToyExec_src\Source\SyncToyExec\obj\Release\SyncToyExec.exe
+C:\Users\dirk_bremen\Desktop\SyncToyExec_src\Source\SyncToyExec\obj\Release\SyncToyExec.pdb
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyExec.exe
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyExec.pdb
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Release\SyncToyExec.exe
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Release\SyncToyExec.pdb
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyExec.csprojResolveAssemblyReference.cache
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyExec.exe
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyExec.pdb
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Release\SyncToyExec.exe
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Release\SyncToyExec.pdb
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Release\SyncToyEngine.dll
+C:\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyExec.csprojResolveAssemblyReference.cache
