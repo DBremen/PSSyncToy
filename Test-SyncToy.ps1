@@ -2,8 +2,9 @@
 #$cmdline = '-d(left="c:\left",right="c:\right",name=posh,operation=Synchronize,check=yes)'
 #& 'C:\Program Files\SyncToy 2.1\SyncToy.exe' "$cmdline"
 
-Import-Module $PSScriptRoot\SyncToy.psm1 -Force
 
+
+Import-Module $PSScriptRoot\SyncToy.psm1 -Force
 #create folders for testing
 #leftDir containing some content
 $leftDir = "$env:TEMP\Left"
@@ -31,8 +32,7 @@ Set-SyncConfig -folderPairName 'Test' -leftDir $leftDir -rightDir $rightDir -syn
 #preview the sync
 $previewResults = Invoke-Sync -folderPairName 'Test' -previewOnly
 $previewResults
-$previewResults.Actions
-
+$previewResults.Action
 #run the snyc
 $results = Invoke-Sync -folderPairName 'Test' 
 $results

@@ -1,5 +1,13 @@
 ﻿$script:syncToyEnginePath = Resolve-Path 'c:\Program Files*\SyncToy 2.1\SyncToyEngine.dll'
+if (-not $syncToyEnginePath){
+    Write-Warning "The module requires SyncToy to be installed"
+    exit
+}
 Add-Type -Path $syncToyEnginePath
+#check if the SynEngine.dll is present in the modules directory otherwise copy it over
+if ( -not (Test-Path "$PSScriptRoot\SyncToyEngine.dll")){
+    copy $syncToyEnginePath "$PSScriptRoot"
+}
 
 function Get-SyncConfig ($engineConfigPath = "$env:LOCALAPPDATA\Microsoft\SyncToy\2.0\SyncToyDirPairs.bin"){
     $engineConfigs = New-Object System.Collections.ArrayList
@@ -188,8 +196,6 @@ function Invoke-Sync {
         $timePart = $results[-3].Split(' .')[-2].Split(':')
         $ts = New-TimeSpan -Hours $timePart[0] -Minutes $timePart[1] -Seconds $timePart[2] 
         $htResults.TimeTaken = $ts
-        $htResults.CopiedSize 
-        $htResults.Speed 
         $htResults.Mode = $engineConfig.SyncMode
         $htResults.Left, $htResults.Right  = $engineConfig.LeftDir, $engineConfig.RightDir
         $htResults.Options = ($results | sls '^\s+') -split "`n" | foreach {$_.Trim()}
