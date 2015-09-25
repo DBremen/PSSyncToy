@@ -4,3 +4,6 @@ C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\bin\Release\Sync
 C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyRunner.csprojResolveAssemblyReference.cache
 C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyRunner.exe
 C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\VS\SyncToyExec\obj\Release\SyncToyRunner.pdb
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\SyncToyRunner_Source\SyncToyExec\bin\Release\SyncToyRunner.exe.config
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\SyncToyRunner_Source\SyncToyExec\obj\Release\SyncToyRunner.exe
+C:\Users\dirk_bremen\Dropbox\Scripts\ps1\SyncToy\SyncToyRunner_Source\SyncToyExec\obj\Release\SyncToyRunner.pdb
