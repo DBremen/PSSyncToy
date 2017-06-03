@@ -19,7 +19,7 @@ I ended up writing a C# executable (SyncToyRunner.exe) that only takes care of t
 | --- | --- | --- |
 | SyncToyRunner.exe | C# that handles synchronization and preview part (see above) ||
 | Generate-ScriptMarkdownHelp | Function that generated the markdown help for the module using platyPS ||
-| Use-SyncToyModule | Example (not really a test) of the usage for the module ||
+| Use-SyncToyModule | Example usage for the module ||
 | Get-SyncConfig | Retrieve an existing sync configuration (FolderPair) either setup via Set-SyncConfig or GUI | [Link](https://github.com/DBremen/SyncToy/blob/master/docs/Get-SyncConfig.md) |
 | Invoke-Sync | Run or preview a synchronization setup through the GUI or Set-SyncConfig | [Link](https://github.com/DBremen/SyncToy/blob/master/docs/Invoke-Sync.md) |
 | Set-SyncConfig | Set SyncToy Configuration for a folderPair | [Link](https://github.com/DBremen/SyncToy/blob/master/docs/Set-SyncConfig.md) |
