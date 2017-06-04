@@ -15,7 +15,7 @@
     [CmdletBinding()]
     Param($Path,$RepoUrl)
     $summaryTable = @'
-# SyncToy
+# PSSyncToy
 Using [Microsoft SyncToy](https://www.microsoft.com/en-us/download/details.aspx?id=15155) through PowerShell.
 See [Link to my blog post](https://powershellone.wordpress.com/2015/09/25/using-microsoft-synctoy-through-powershell/) for more details
 
