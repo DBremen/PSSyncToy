@@ -15,7 +15,7 @@
     [CmdletBinding()]
     Param($Path,$RepoUrl)
     $summaryTable = @'
-# SearchLucene
+# SyncToy
 Using [Microsoft SyncToy](https://www.microsoft.com/en-us/download/details.aspx?id=15155) through PowerShell.
 See [Link to my blog post](https://powershellone.wordpress.com/2015/09/25/using-microsoft-synctoy-through-powershell/) for more details
 
@@ -68,4 +68,4 @@ I ended up writing a C# executable (SyncToyRunner.exe) that only takes care of t
     #sanity check if help file were generated for each script
     [PSCustomObject]$htCheck
 }
- Generate-ScriptMarkdownHelp -Path C:\Scripts\ps1\SyncToy\SyncToy.psm1 -RepoUrl https://github.com/DBremen/SyncToy
+ Generate-ScriptMarkdownHelp -Path C:\Scripts\ps1\PSSyncToy\PSSyncToy.psm1 -RepoUrl https://github.com/DBremen/PSSyncToy
